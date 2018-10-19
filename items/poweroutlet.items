@@ -1,0 +1,24 @@
+Switch SteckdoseA       "Steckdose A"           <light>         (grp_poweroutlets)  ["Switchable"]
+Switch SteckdoseA_run   {channel="exec:command:SteckdoseA:run"}
+String SteckdoseA_Args  {channel="exec:command:SteckdoseA:input"}
+String SteckdoseA_Out   {channel="exec:command:SteckdoseA:output"}
+
+Switch SteckdoseB       "Steckdose A"           <light>         (grp_poweroutlets)  ["Switchable"]
+Switch SteckdoseB_run   {channel="exec:command:SteckdoseB:run"}
+String SteckdoseB_Args  {channel="exec:command:SteckdoseB:input"}
+String SteckdoseB_Out   {channel="exec:command:SteckdoseB:output"}
+
+Switch SteckdoseC       "Steckdose A"           <poweroutlet>   (grp_poweroutlets) ["Switchable"]
+Switch SteckdoseC_run   {channel="exec:command:SteckdoseC:run"}
+String SteckdoseC_Args  {channel="exec:command:SteckdoseC:input"}
+String SteckdoseC_Out   {channel="exec:command:SteckdoseC:output"}
+
+Switch SteckdoseD       "Steckdose D"           <poweroutlet>   (grp_poweroutlets) ["Switchable"]
+Switch SteckdoseD_run   {channel="exec:command:SteckdoseD:run"}
+String SteckdoseD_Args  {channel="exec:command:SteckdoseD:input"}
+String SteckdoseD_Out   {channel="exec:command:SteckdoseD:output"}
+
+Switch SteckdoseE       "Steckdose E"           <light>         (grp_poweroutlets) ["Switchable"]
+Switch SteckdoseE_run   {channel="exec:command:SteckdoseE:run"}
+String SteckdoseE_Args  {channel="exec:command:SteckdoseE:input"}
+String SteckdoseE_Out   {channel="exec:command:SteckdoseE:output"}

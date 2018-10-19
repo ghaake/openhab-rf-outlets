@@ -1,0 +1,74 @@
+rule "Steckdose A"
+	when
+		Item SteckdoseA received command
+	then
+		if( receivedCommand == ON ) {
+			SteckdoseA_Args.sendCommand( "on" )
+		} else {
+			SteckdoseA_Args.sendCommand( "off" )
+		}
+		//wait
+		while( SteckdoseA.state !=OFF ) {
+			Thread::sleep( 500)
+		}
+end
+
+rule "Steckdose B"
+	when
+		Item SteckdoseB received command
+	then
+		if( receivedCommand == ON ) {
+			SteckdoseB_Args.sendCommand( "on" )
+		} else {
+			SteckdoseB_Args.sendCommand( "off" )
+		}
+		//wait
+		while( SteckdoseB.state !=OFF ) {
+			Thread::sleep( 500)
+		}
+end
+
+rule "Steckdose C"
+	when
+		Item SteckdoseC received command
+	then
+		if( receivedCommand == ON ){
+			SteckdoseC.sendCommand( "on" )
+		} else {
+			SteckdoseC.sendCommand( "off" )
+		}
+		//wait
+		while( SteckdoseC.state !=OFF ) {
+			Thread::sleep( 500)
+		}
+end
+
+rule "Steckdose D"
+	when
+		Item SteckdoseD received command
+	then
+		if( receivedCommand == ON ){
+			SteckdoseD_Args.sendCommand( "on" )
+		} else {
+			SteckdoseD_Args.sendCommand( "off" )
+		}
+		//wait
+		while( SteckdoseD.state !=OFF ) {
+			Thread::sleep( 500)
+		}
+end
+
+rule "Steckdose E"
+	when
+		Item SteckdoseE received command
+	then
+		if( receivedCommand == ON ) {
+			SteckdoseE_Args.sendCommand( "on" )
+		} else {
+			SteckdoseE_Args.sendCommand( "off" )
+		}
+		//wait
+		while( SteckdoseE.state !=OFF ) {
+			Thread::sleep( 500)
+		}
+end

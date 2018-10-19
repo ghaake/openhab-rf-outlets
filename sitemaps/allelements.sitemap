@@ -1,0 +1,9 @@
+sitemap allelements label="Alle Elemente" {
+	Frame label="Steckdosen" {
+         Switch item=SteckdoseA	
+         Switch item=SteckdoseB
+		 Switch item=SteckdoseC	
+         Switch item=SteckdoseD	
+         Switch item=SteckdoseE	
+    }
+}
