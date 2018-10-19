@@ -9,8 +9,8 @@ Control your (Zap)-Poweroutlets with [OpenHAB](https://www.openhab.org/)
 
 1. Install [Exec Binding](https://www.openhab.org/addons/bindings/exec/) via PaperUI.
 2. Copy all Files into thier corresponding folder on your OpenHAB 2 instance.
-3. Use ```RFSniffer``` in ```/scripts/outlets``` to sniff your 433MHz-RC-Codes.
-4. Edit files ```/scripts/outlets/steckdose*.sh``` and replace ```CODE``` with your previously sniffed RC-Codes.
+3. Use ```RFSniffer``` in ```/scripts/outlet``` to sniff your 433MHz-RC-Codes.
+4. Edit files ```/scripts/outlet/steckdose*.sh``` and replace ```CODE``` with your previously sniffed RC-Codes.
 5. First command == Off-Code
 6. First command == On-Code
 
